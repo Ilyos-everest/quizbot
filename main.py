@@ -4,6 +4,7 @@ from aiogram.filters import Command
 from aiohttp import web
 
 TOKEN = os.getenv("8950640581:AAGZbbv2Ki98cmm-xJxRGdxdQTloYelNUss")
+print("TOKEN:", TOKEN)
 WEBHOOK_HOST = os.getenv("WEBHOOK_HOST")
 
 WEBHOOK_PATH = "/webhook"
