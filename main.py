@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from aiohttp import web
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8950640581:AAGZbbv2Ki98cmm-xJxRGdxdQTloYelNUss")
 WEBHOOK_HOST = os.getenv("WEBHOOK_HOST")
 
 WEBHOOK_PATH = "/webhook"
