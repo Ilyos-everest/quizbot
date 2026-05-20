@@ -10,7 +10,7 @@ WEBHOOK_HOST = os.getenv("WEBHOOK_HOST")
 WEBHOOK_PATH = "/webhook"
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=8950640581:AAGZbbv2Ki98cmm-xJxRGdxdQTloYelNUss)
 dp = Dispatcher()
 
 @dp.message(Command("start"))
